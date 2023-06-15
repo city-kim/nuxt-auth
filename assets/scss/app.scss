@@ -1,0 +1,47 @@
+html, body {
+  height:100%;
+}
+
+@mixin anchor {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+      display: flex;
+      gap: 1rem;
+      a {
+        @include anchor;
+      }
+    }
+    fieldset {
+      margin: 0;
+      padding: 0;
+      border: none;
+      button {
+        @include anchor;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.contents {
+  padding-top: 5rem;
+  text-align: center;
+}
