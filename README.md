@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# nuxt-auth를 활용하여 직접로그인 및 소셜로그인 구현
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[nuxt-auth document 참고](https://sidebase.io/nuxt-auth/getting-started)
+
+## .env.example 파일을 참고하여 env를 작성해야한다
+
+[티스토리 포스팅 참고](https://city-kim.tistory.com/16)
 
 ## Setup
 
@@ -31,33 +35,3 @@ pnpm run dev
 # yarn
 yarn dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
